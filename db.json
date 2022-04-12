@@ -1,0 +1,92 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Rohan",
+      "rank": "2",
+      "collegePreference 1": "IIT Kanpur",
+      "collegePreference 2": "IIT Hyderabad",
+      "collegePreference 3": "IIT Bombay"
+    },
+    {
+      "name": "Rahul Konda",
+      "rank": "1",
+      "collegePreference 1": "IIT Bombay",
+      "collegePreference 2": "IIT Hyderabad",
+      "collegePreference 3": "IIT Ahemeddabad",
+      "id": 2
+    },
+    {
+      "name": "Rahul Jagannath Konda",
+      "collegePreference 1": "IIT Hyderabad",
+      "rank": "20",
+      "collegePreference 2": "IIT Madras",
+      "collegePreference 3": "IIT Ahemeddabad",
+      "id": 3
+    },
+    {
+      "name": "hanumaraddi",
+      "rank": "20",
+      "collegePreference 1": "IIT Bombay",
+      "collegePreference 2": "IIT Roorkee",
+      "collegePreference 3": "IIT Hyderabad",
+      "id": 4
+    },
+    {
+      "collegePreference 1": "IIT Kanpur",
+      "collegePreference 2": "IIT Hyderabad",
+      "collegePreference 3": "IIT Roorkee",
+      "name": "dth",
+      "rank": "4",
+      "id": 5
+    },
+    {
+      "collegePreference 2": "IIT Hyderabad",
+      "collegePreference 1": "IIT Madras",
+      "collegePreference 3": "IIT Roorkee",
+      "name": "rahulk612",
+      "rank": "4",
+      "id": 6
+    },
+    {
+      "name": "hanumaraddi",
+      "rank": "20",
+      "collegePreference 1": "IIT Bombay",
+      "collegePreference 3": "IIT Hyderabad",
+      "collegePreference 2": "IIT Roorkee",
+      "id": 7
+    }
+  ],
+  "Colleges": [
+    {
+      "name": "IIT Kanpur",
+      "id": 10,
+      "noOfSeats": 2
+    },
+    {
+      "name": "IIT Bombay",
+      "id": 11,
+      "noOfSeats": 1
+    },
+    {
+      "name": "IIT Hyderabad",
+      "id": 12,
+      "noOfSeats": 3
+    },
+    {
+      "name": "IIT Madras",
+      "id": 13,
+      "noOfSeats": 4
+    },
+    {
+      "name": "IIT Roorkee",
+      "id": 14,
+      "noOfSeats": 1
+    },
+    {
+      "name": "IIT Ahemeddabad",
+      "id": 15,
+      "noOfSeats": 2
+    }
+  ]
+}

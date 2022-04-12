@@ -1,7 +1,7 @@
 .App {
-  text-align: center;
+  margin: auto;
+  box-sizing: border-box;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +35,193 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+table,th,td{
+  border: 1.5px solid lightgray;
+  text-align: center;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+th{
+  background-color: lightcyan;
+}
+
+td p{
+  width: max-content;
+  padding: 5px 15px;
+  border-radius: 30px;
+  margin: auto;
+  font-weight: 600;
+}
+
+td:nth-child(3) p{
+  background-color: rgb(random(255), random(255), random(255));
+}
+
+td{
+  border: 1.5px solid lightgray;
+  height: 50px;
+}
+
+
+th {
+  padding: 15px;
+  
+}
+
+.container{
+  width: max-content;
+  margin: auto;
+}
+
+.forButton{
+  display: flex;
+  gap: 20px;
+  
+  margin-top: 5vh;
+}
+
+.forButton div{
+  background-color: rgb(46,80,144);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 3px;
+  width: max-content;
+  color: #fff;
+  font-weight: 500;
+  z-index: 0;
+  cursor: pointer;
+}
+
+
+.addNewContainer{
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  background-color: snow;
+  height: 75vh;
+  border: 1px solid red;
+  width: 40%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.forHeading{
+  border: 1px solid;
+  height: 8vh;
+  background-color: rgb(46,80,144);
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.InputContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  
+}
+
+.forHeading p{
+  padding-left: 10px;
+  font-weight: 600;
+}
+
+.inpudDiv{
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+.inpudDiv label {
+  width: 50%;
+  text-align: center;
+  background-color: aliceblue;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding-left: 20px;
+}
+
+.inpudDiv .SelectClass{
+  width: 64vh;
+  border: none;
+}
+
+.inpudDiv input {
+  width: 63vh;
+  border: none;
+}
+
+.MenuIcon{
+  margin-right: 3vh;
+}
+
+
+.SaveCancelButtonDiv{
+  display: flex;
+  justify-content: space-around;
+}
+
+.SaveCancelButtonDiv .CancelBtn{
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  width: 45%;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.crossIcon{
+  font-size: 45px;
+  transform: rotate(45deg);
+  font-weight: lighter;
+}
+
+.SaveCancelButtonDiv .SaveBtn{
+  border: none;
+  width: 45%;
+  height: 35px;
+  background-color: #64a500;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* .BackgorunD{
+  height: 100vh;
+  display: block;
+  margin-top: -14%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+} */
+
+.hide{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+button {
+  cursor: pointer;
+}
+select{
+  gap: 20px;
+}
+select option{
+  gap: 10px;
+  /* background-color: #64a500; */
+}
+
+.SelectClass{
+  width: 50%;
 }
